@@ -6,12 +6,15 @@ Then describe how you could improve your code by using a modern approach and kee
 scalability, maintainability, speed, use of 3rd party tools, etc..
 
 Things that could be taken into account with the code in part 1:
+
 At the Security level: 
 - Input parameters could be validated to prevent possible invalid input attacks.
 - Access and authorization controls should be implemented to restrict access to this information.
+
 At scalability level:
 - We could use paging or batch processing techniques to handle large volumes of events from these transfers.
 - It would be advisable to use third party tools such as indexers, for example The Graph, to index and query the events in a more efficient way.
+
 At Maintenance level:
 - The code could be organized into reusable functions.
 - The code will have to be documented.
